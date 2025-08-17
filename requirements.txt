@@ -1,0 +1,27 @@
+# PulseCheck Credit Risk Scoring Platform - Dependencies
+
+# Core
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Database
+duckdb>=0.9.0
+
+# Visualization
+plotly>=5.17.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+lightgbm>=4.0.0
+tensorflow>=2.13.0
+
+# Model Interpretability
+shap>=0.42.0
+
+# Utilities
+joblib>=1.3.0
+openpyxl>=3.1.0
