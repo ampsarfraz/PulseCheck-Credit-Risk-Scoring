@@ -205,3 +205,35 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ========== PROJECT SPECIFIC ==========
+
+# Mac OS
+.DS_Store
+
+# DuckDB database files (will be created automatically)
+data/
+*.duckdb
+*.duckdb.wal
+*.wal
+
+# Large HTML exports
+PulseCheck.html
+*.html
+
+# Temporary files
+~$*
+*.tmp
+*.temp
+
+# Backup and old files
+*.bak
+*.backup
+*_old.*
+*_backup.*
+*_dual_view.*
+
+# Training outputs
+training_log.txt
+training_results.json
+model_comparison.csv
